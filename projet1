@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>menu2</title>
+ 	<link rel="stylesheet" type="text/css" href="index2css.css">
+ </head>
+ <body>
+ 	
+ 		<nav>
+ 			 	<p style="display:inline-block;">Logo</p>
+ 		  <div class="contenant">
+
+ 			<ul>
+ 				<li class="Home"><a href="#">Home</a></li>
+ 				<li class="inscription"><a href="#">Inscription</a></li>
+ 				<li class="Connexion"><a href="#">Connexion</a></li>
+ 				<li class="Contactez"><a href="#">Contactez nous</a></li>
+ 			</ul>
+ 		  </div>
+ 		</nav>	
+ 		<div id="contenant">
+ 			
+ 		</div>
+ 		<footer id="">
+ 			
+ 		</footer>
+
+ 	
+ 
+ </body>
+ </html>
+ 
+ 
+ 
+ 
+ <!--css-->
+ 
+  body
+ {
+ 	margin:0;
+ 	padding:0;
+ }
+ body,html
+
+ {
+ 	height: 100%;
+ }
+ nav
+ {
+ 	font-family: serif;
+ 	background-color: #424558;	
+ 	height:45px;
+ 	padding-bottom:5px;
+ }
+ nav li
+ {
+ 	font-size:bold;
+ 	
+ 	padding-left:50px;
+ 	display:inline-block;
+ }
+ nav li:hover 
+ {
+ 	font-size:bold;
+ 	
+ 	padding-left:50px;
+ 	display:inline-block;
+ }
+
+ nav li:hover a
+ {  	
+ 	background-color:red;
+ 	margin-top:2px;
+ 	padding-left:30px;    
+ 	padding-right:30px;
+ 	padding-bottom:13px;
+	 padding-top:16px;
+ }
+ nav a
+ {
+ 	color: black;
+ 	text-decoration: none;
+ }
+
+ .contenant
+ {
+ 	display:inline-block;
+	margin-left:49%;
+ }
+#contenant
+{
+	min-height: 100%;
+}
+#footer
+{
+	background-color: #000;
+	height: 100px;
+}
